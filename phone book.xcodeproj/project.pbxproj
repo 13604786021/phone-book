@@ -9,11 +9,21 @@
 /* Begin PBXBuildFile section */
 		F2BCCF811D2A469100E86BC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BCCF801D2A469100E86BC7 /* AppDelegate.swift */; };
 		F2BCCF831D2A469100E86BC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BCCF821D2A469100E86BC7 /* ViewController.swift */; };
-		F2BCCF861D2A469100E86BC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2BCCF841D2A469100E86BC7 /* Main.storyboard */; };
 		F2BCCF881D2A469200E86BC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2BCCF871D2A469200E86BC7 /* Assets.xcassets */; };
 		F2BCCF8B1D2A469200E86BC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2BCCF891D2A469200E86BC7 /* LaunchScreen.storyboard */; };
 		F2BCCF961D2A469200E86BC7 /* phone_bookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BCCF951D2A469200E86BC7 /* phone_bookTests.swift */; };
 		F2BCCFA11D2A469200E86BC7 /* phone_bookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BCCFA01D2A469200E86BC7 /* phone_bookUITests.swift */; };
+		F2BCCFAF1D2A46A300E86BC7 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F2BCCFAE1D2A46A300E86BC7 /* libsqlite3.0.tbd */; };
+		F2BCCFB61D2A46E800E86BC7 /* data.db in Resources */ = {isa = PBXBuildFile; fileRef = F2BCCFB11D2A46E800E86BC7 /* data.db */; };
+		F2BCCFB71D2A46E800E86BC7 /* SQLiteDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BCCFB31D2A46E800E86BC7 /* SQLiteDB.swift */; };
+		F2BCCFB81D2A46E800E86BC7 /* SQLTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BCCFB41D2A46E800E86BC7 /* SQLTable.swift */; };
+		F2BCCFB91D2A46E800E86BC7 /* String-Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BCCFB51D2A46E800E86BC7 /* String-Extras.swift */; };
+		F2BCCFBF1D2A5B3900E86BC7 /* add.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BCCFBE1D2A5B3900E86BC7 /* add.swift */; };
+		F2BCCFC21D2A65D500E86BC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2BCCFC01D2A65D500E86BC7 /* Main.storyboard */; };
+		F2BCCFC41D2A81E700E86BC7 /* showall.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BCCFC31D2A81E700E86BC7 /* showall.swift */; };
+		F2BCCFC61D2B4C8400E86BC7 /* Delet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BCCFC51D2B4C8400E86BC7 /* Delet.swift */; };
+		F2BCCFC81D2B7E1900E86BC7 /* Namelookup.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BCCFC71D2B7E1900E86BC7 /* Namelookup.swift */; };
+		F2BCCFCA1D2B86AB00E86BC7 /* phonelookup.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BCCFC91D2B86AB00E86BC7 /* phonelookup.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +47,6 @@
 		F2BCCF7D1D2A469100E86BC7 /* phone book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "phone book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2BCCF801D2A469100E86BC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2BCCF821D2A469100E86BC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F2BCCF851D2A469100E86BC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F2BCCF871D2A469200E86BC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2BCCF8A1D2A469200E86BC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2BCCF8C1D2A469200E86BC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +56,18 @@
 		F2BCCF9C1D2A469200E86BC7 /* phone bookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "phone bookUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2BCCFA01D2A469200E86BC7 /* phone_bookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = phone_bookUITests.swift; sourceTree = "<group>"; };
 		F2BCCFA21D2A469200E86BC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2BCCFAE1D2A46A300E86BC7 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		F2BCCFB01D2A46B300E86BC7 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		F2BCCFB11D2A46E800E86BC7 /* data.db */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data.db; sourceTree = "<group>"; };
+		F2BCCFB31D2A46E800E86BC7 /* SQLiteDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteDB.swift; sourceTree = "<group>"; };
+		F2BCCFB41D2A46E800E86BC7 /* SQLTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLTable.swift; sourceTree = "<group>"; };
+		F2BCCFB51D2A46E800E86BC7 /* String-Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String-Extras.swift"; sourceTree = "<group>"; };
+		F2BCCFBE1D2A5B3900E86BC7 /* add.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = add.swift; sourceTree = "<group>"; };
+		F2BCCFC11D2A65D500E86BC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2BCCFC31D2A81E700E86BC7 /* showall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = showall.swift; sourceTree = "<group>"; };
+		F2BCCFC51D2B4C8400E86BC7 /* Delet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Delet.swift; sourceTree = "<group>"; };
+		F2BCCFC71D2B7E1900E86BC7 /* Namelookup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Namelookup.swift; sourceTree = "<group>"; };
+		F2BCCFC91D2B86AB00E86BC7 /* phonelookup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = phonelookup.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2BCCFAF1D2A46A300E86BC7 /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +99,9 @@
 		F2BCCF741D2A469100E86BC7 = {
 			isa = PBXGroup;
 			children = (
+				F2BCCFAE1D2A46A300E86BC7 /* libsqlite3.0.tbd */,
+				F2BCCFB11D2A46E800E86BC7 /* data.db */,
+				F2BCCFB21D2A46E800E86BC7 /* SQLiteDB */,
 				F2BCCF7F1D2A469100E86BC7 /* phone book */,
 				F2BCCF941D2A469200E86BC7 /* phone bookTests */,
 				F2BCCF9F1D2A469200E86BC7 /* phone bookUITests */,
@@ -99,10 +124,16 @@
 			children = (
 				F2BCCF801D2A469100E86BC7 /* AppDelegate.swift */,
 				F2BCCF821D2A469100E86BC7 /* ViewController.swift */,
-				F2BCCF841D2A469100E86BC7 /* Main.storyboard */,
+				F2BCCFC01D2A65D500E86BC7 /* Main.storyboard */,
 				F2BCCF871D2A469200E86BC7 /* Assets.xcassets */,
 				F2BCCF891D2A469200E86BC7 /* LaunchScreen.storyboard */,
 				F2BCCF8C1D2A469200E86BC7 /* Info.plist */,
+				F2BCCFB01D2A46B300E86BC7 /* Header.h */,
+				F2BCCFBE1D2A5B3900E86BC7 /* add.swift */,
+				F2BCCFC31D2A81E700E86BC7 /* showall.swift */,
+				F2BCCFC51D2B4C8400E86BC7 /* Delet.swift */,
+				F2BCCFC71D2B7E1900E86BC7 /* Namelookup.swift */,
+				F2BCCFC91D2B86AB00E86BC7 /* phonelookup.swift */,
 			);
 			path = "phone book";
 			sourceTree = "<group>";
@@ -123,6 +154,16 @@
 				F2BCCFA21D2A469200E86BC7 /* Info.plist */,
 			);
 			path = "phone bookUITests";
+			sourceTree = "<group>";
+		};
+		F2BCCFB21D2A46E800E86BC7 /* SQLiteDB */ = {
+			isa = PBXGroup;
+			children = (
+				F2BCCFB31D2A46E800E86BC7 /* SQLiteDB.swift */,
+				F2BCCFB41D2A46E800E86BC7 /* SQLTable.swift */,
+				F2BCCFB51D2A46E800E86BC7 /* String-Extras.swift */,
+			);
+			path = SQLiteDB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,8 +271,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2BCCF8B1D2A469200E86BC7 /* LaunchScreen.storyboard in Resources */,
+				F2BCCFC21D2A65D500E86BC7 /* Main.storyboard in Resources */,
+				F2BCCFB61D2A46E800E86BC7 /* data.db in Resources */,
 				F2BCCF881D2A469200E86BC7 /* Assets.xcassets in Resources */,
-				F2BCCF861D2A469100E86BC7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +298,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2BCCFB91D2A46E800E86BC7 /* String-Extras.swift in Sources */,
+				F2BCCFB71D2A46E800E86BC7 /* SQLiteDB.swift in Sources */,
+				F2BCCFB81D2A46E800E86BC7 /* SQLTable.swift in Sources */,
 				F2BCCF831D2A469100E86BC7 /* ViewController.swift in Sources */,
+				F2BCCFCA1D2B86AB00E86BC7 /* phonelookup.swift in Sources */,
+				F2BCCFC61D2B4C8400E86BC7 /* Delet.swift in Sources */,
 				F2BCCF811D2A469100E86BC7 /* AppDelegate.swift in Sources */,
+				F2BCCFC41D2A81E700E86BC7 /* showall.swift in Sources */,
+				F2BCCFC81D2B7E1900E86BC7 /* Namelookup.swift in Sources */,
+				F2BCCFBF1D2A5B3900E86BC7 /* add.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,20 +343,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F2BCCF841D2A469100E86BC7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F2BCCF851D2A469100E86BC7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F2BCCF891D2A469200E86BC7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				F2BCCF8A1D2A469200E86BC7 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F2BCCFC01D2A65D500E86BC7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2BCCFC11D2A65D500E86BC7 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -405,6 +455,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "hehe.phone-book";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/CIEC_iMac/Desktop/swift/phone book/phone book/Header.h";
 			};
 			name = Debug;
 		};
@@ -416,6 +467,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "hehe.phone-book";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/CIEC_iMac/Desktop/swift/phone book/phone book/Header.h";
 			};
 			name = Release;
 		};
