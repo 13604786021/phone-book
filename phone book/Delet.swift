@@ -4,7 +4,7 @@
 //
 //  Created by CIEC_iMac on 16/7/5.
 //  Copyright © 2016年 CIEC_iMac. All rights reserved.
-//
+///Users/CIEC_iMac/Desktop/swift/phone book/phone book/Delet.swift
 
 import Foundation
 import UIKit
@@ -45,7 +45,8 @@ class DeletController: UIViewController {
         let result = db.execute(sql)
             print(result)
         }
-        
+        a.text=""
+        b.text=""
     }
     @IBAction func deletall(sender: AnyObject) {
         let sql="delete from message"

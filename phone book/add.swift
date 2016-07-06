@@ -34,6 +34,10 @@ class addController: UIViewController {
         print("aql:\(sql)")
         let result = db.execute(sql)
         print(result)
+        name.text=""
+        phone.text=""
+        mail.text=""
+        adress.text=""
         
         
     }

@@ -24,6 +24,16 @@
 		F2BCCFC61D2B4C8400E86BC7 /* Delet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BCCFC51D2B4C8400E86BC7 /* Delet.swift */; };
 		F2BCCFC81D2B7E1900E86BC7 /* Namelookup.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BCCFC71D2B7E1900E86BC7 /* Namelookup.swift */; };
 		F2BCCFCA1D2B86AB00E86BC7 /* phonelookup.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BCCFC91D2B86AB00E86BC7 /* phonelookup.swift */; };
+		F2BCCFCC1D2B8E8E00E86BC7 /* revise.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BCCFCB1D2B8E8E00E86BC7 /* revise.swift */; };
+		F2BCCFD71D2B929400E86BC7 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F2BCCFCE1D2B929400E86BC7 /* 1.jpg */; };
+		F2BCCFD81D2B929400E86BC7 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F2BCCFCF1D2B929400E86BC7 /* 2.jpg */; };
+		F2BCCFD91D2B929400E86BC7 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F2BCCFD01D2B929400E86BC7 /* 3.jpg */; };
+		F2BCCFDA1D2B929400E86BC7 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F2BCCFD11D2B929400E86BC7 /* 4.jpg */; };
+		F2BCCFDB1D2B929400E86BC7 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F2BCCFD21D2B929400E86BC7 /* 5.jpg */; };
+		F2BCCFDC1D2B929400E86BC7 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F2BCCFD31D2B929400E86BC7 /* 6.jpg */; };
+		F2BCCFDD1D2B929400E86BC7 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F2BCCFD41D2B929400E86BC7 /* 7.jpg */; };
+		F2BCCFDE1D2B929400E86BC7 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F2BCCFD51D2B929400E86BC7 /* 8.jpg */; };
+		F2BCCFDF1D2B929400E86BC7 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F2BCCFD61D2B929400E86BC7 /* 9.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +78,16 @@
 		F2BCCFC51D2B4C8400E86BC7 /* Delet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Delet.swift; sourceTree = "<group>"; };
 		F2BCCFC71D2B7E1900E86BC7 /* Namelookup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Namelookup.swift; sourceTree = "<group>"; };
 		F2BCCFC91D2B86AB00E86BC7 /* phonelookup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = phonelookup.swift; sourceTree = "<group>"; };
+		F2BCCFCB1D2B8E8E00E86BC7 /* revise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = revise.swift; sourceTree = "<group>"; };
+		F2BCCFCE1D2B929400E86BC7 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		F2BCCFCF1D2B929400E86BC7 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		F2BCCFD01D2B929400E86BC7 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		F2BCCFD11D2B929400E86BC7 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		F2BCCFD21D2B929400E86BC7 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		F2BCCFD31D2B929400E86BC7 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		F2BCCFD41D2B929400E86BC7 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		F2BCCFD51D2B929400E86BC7 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		F2BCCFD61D2B929400E86BC7 /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +121,7 @@
 			children = (
 				F2BCCFAE1D2A46A300E86BC7 /* libsqlite3.0.tbd */,
 				F2BCCFB11D2A46E800E86BC7 /* data.db */,
+				F2BCCFCD1D2B929400E86BC7 /* image */,
 				F2BCCFB21D2A46E800E86BC7 /* SQLiteDB */,
 				F2BCCF7F1D2A469100E86BC7 /* phone book */,
 				F2BCCF941D2A469200E86BC7 /* phone bookTests */,
@@ -134,6 +155,7 @@
 				F2BCCFC51D2B4C8400E86BC7 /* Delet.swift */,
 				F2BCCFC71D2B7E1900E86BC7 /* Namelookup.swift */,
 				F2BCCFC91D2B86AB00E86BC7 /* phonelookup.swift */,
+				F2BCCFCB1D2B8E8E00E86BC7 /* revise.swift */,
 			);
 			path = "phone book";
 			sourceTree = "<group>";
@@ -164,6 +186,22 @@
 				F2BCCFB51D2A46E800E86BC7 /* String-Extras.swift */,
 			);
 			path = SQLiteDB;
+			sourceTree = "<group>";
+		};
+		F2BCCFCD1D2B929400E86BC7 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				F2BCCFCE1D2B929400E86BC7 /* 1.jpg */,
+				F2BCCFCF1D2B929400E86BC7 /* 2.jpg */,
+				F2BCCFD01D2B929400E86BC7 /* 3.jpg */,
+				F2BCCFD11D2B929400E86BC7 /* 4.jpg */,
+				F2BCCFD21D2B929400E86BC7 /* 5.jpg */,
+				F2BCCFD31D2B929400E86BC7 /* 6.jpg */,
+				F2BCCFD41D2B929400E86BC7 /* 7.jpg */,
+				F2BCCFD51D2B929400E86BC7 /* 8.jpg */,
+				F2BCCFD61D2B929400E86BC7 /* 9.jpg */,
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,10 +308,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2BCCFDF1D2B929400E86BC7 /* 9.jpg in Resources */,
+				F2BCCFDE1D2B929400E86BC7 /* 8.jpg in Resources */,
+				F2BCCFDD1D2B929400E86BC7 /* 7.jpg in Resources */,
+				F2BCCFDA1D2B929400E86BC7 /* 4.jpg in Resources */,
+				F2BCCFD81D2B929400E86BC7 /* 2.jpg in Resources */,
 				F2BCCF8B1D2A469200E86BC7 /* LaunchScreen.storyboard in Resources */,
+				F2BCCFDB1D2B929400E86BC7 /* 5.jpg in Resources */,
+				F2BCCFDC1D2B929400E86BC7 /* 6.jpg in Resources */,
 				F2BCCFC21D2A65D500E86BC7 /* Main.storyboard in Resources */,
 				F2BCCFB61D2A46E800E86BC7 /* data.db in Resources */,
 				F2BCCF881D2A469200E86BC7 /* Assets.xcassets in Resources */,
+				F2BCCFD91D2B929400E86BC7 /* 3.jpg in Resources */,
+				F2BCCFD71D2B929400E86BC7 /* 1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +348,7 @@
 				F2BCCFB91D2A46E800E86BC7 /* String-Extras.swift in Sources */,
 				F2BCCFB71D2A46E800E86BC7 /* SQLiteDB.swift in Sources */,
 				F2BCCFB81D2A46E800E86BC7 /* SQLTable.swift in Sources */,
+				F2BCCFCC1D2B8E8E00E86BC7 /* revise.swift in Sources */,
 				F2BCCF831D2A469100E86BC7 /* ViewController.swift in Sources */,
 				F2BCCFCA1D2B86AB00E86BC7 /* phonelookup.swift in Sources */,
 				F2BCCFC61D2B4C8400E86BC7 /* Delet.swift in Sources */,

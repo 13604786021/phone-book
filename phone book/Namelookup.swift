@@ -36,5 +36,6 @@ class NamelookupController: UIViewController {
             seekup.text!+="用户名：" + String(user["name"]!) + "\n\n" + "电话号：" + String(user["phone"]!) + "\n\n"
             seekup.text!+="邮箱：" + String(user["mail"]!) + "\n\n" + "地址:"+String(user["adress"]!) + "\n\n"
         }
+        seekT.text=""
     }
 }
